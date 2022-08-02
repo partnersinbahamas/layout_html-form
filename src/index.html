@@ -14,7 +14,6 @@
     <script type="text/javascript" src="./main.js"></script>
 
     <main>
-      
       <form action="https://mate-academy-form-lesson.herokuapp.com/create-application
 
       "type = "post">
@@ -29,8 +28,8 @@
             id = "surname" 
             class = "forms"
             name = "SurName"
-            required
-          ></label>
+            required>
+          </label>
 
           <br>
 
@@ -41,8 +40,8 @@
             id = "name" 
             class = "forms"
             name = "Name"
-            required
-          ></label>
+            required>
+          </label>
 
           <br>
 
@@ -53,8 +52,8 @@
             id = "Age"
             name = "Age"
             required
-            value="12"
-          ></label>
+            value="12">
+          </label>
 
           <br>
 
@@ -66,8 +65,8 @@
             required
             name = "Date of Birth"
             min="1921-01-01"
-            max="2121-01-01"
-          ></label>
+            max="2121-01-01">
+          </label>
 
           <br>
 
@@ -78,8 +77,8 @@
             class = "forms"
             required
             id = "terms"
-            name = "Agree with terms"
-          ></label>
+            name = "Agree with terms">
+          </label>
 
         </fieldset>
 
@@ -96,22 +95,21 @@
             class = "forms"
             id = "email"
             name = "Email"
-            placeholder="email@example.com"
-            ></label>
+            placeholder="email@example.com">
+          </label>
 
-            <br>
+          <br>
 
-            <label for="pass">
-              Password:
-              <input 
-              type="password"
-              class = "forms"
-              minlength="4"
-              maxlength="32"
-              id = "pass"
-              name = "Password"
-
-            ></label>
+          <label for="pass">
+            Password:
+            <input 
+            type="password"
+            class = "forms"
+            minlength="4"
+            maxlength="32"
+            id = "pass"
+              name = "Password">
+          </label>
 
         </fieldset>
 
@@ -120,111 +118,108 @@
           <legend>An interecting facts about you!</legend>
 
 
-        <label for="radio_cats">
-          Do you like cats?:
-          Yes:
-          <input 
-          type="radio"
-          name = "radio_cats"
-          id = "radio_cats"
-          class = "forms">
+          <label for="radio_cats">
+            Do you like cats?:
+            Yes:
+            <input 
+            type="radio"
+            name = "radio_cats"
+            id = "radio_cats"
+            class = "forms">
 
-          No:
-          <input 
-          type="radio"
-          name = "radio_cats"
-          id = "radio_cats"
-          class = "forms"
-        ></label>
+            No:
+            <input 
+            type="radio"
+            name = "radio_cats"
+            class = "forms">
+          </label>
 
           <br>
 
-        <label for="color">
-          Whats your favorite color:
-          <input 
-          type="color"
-          class = "forms"
-          id = "color"
-          name = "Color"
-        ></label>
+          <label for="color">
+            Whats your favorite color:
+            <input 
+              type="color"
+              class = "forms"
+              id = "color"
+              name = "Color">
+          </label>
 
-        <br>
+          <br>
 
-        <label for="time">
-          What time do you go to bed?:
-          <input 
-          type="time"
-          class = "forms"
-          id = "time"
-          name = "Time to sleep"
-          min="00:00"
-          max = "23:59">
-        </label>
+          <label for="time">
+            What time do you go to bed?:
+            <input 
+              type="time"
+              class = "forms"
+              id = "time"
+              name = "Time to sleep"
+              min="00:00"
+              max = "23:59">
+          </label>
 
-        <br>
+          <br>
 
-        <label for="Cars">
-          Whats your favorite brand cars?:
+          <label for="Cars">
+            Whats your favorite brand cars?:
 
-          <select 
-            name="Brand Car" 
-            id="Cars"
+            <select 
+              name="Brand Car" 
+              id="Cars"
+              class = "forms">
+              <option>BMW</option>
+              <option>AUDI</option>
+              <option selected>Lamborgini</option>
+            </select>
+
+          </label>
+
+          <br>
+
+          <label for="range">
+            How do you rate our work?:
+            <input 
+            type="range"
             class = "forms"
-          >
-          <option value="">BMW</option>
-          <option value="">AUDI</option>
-          <option value=""selected>Lamborgini</option>
-          </select>
+            id = "range"
+            name = "RangeWork"
+            required
+            min = "0"
+            max = "10">
+          </label>
 
-        </label>
-
-        <br>
-
-        <label for="range">
-          How do you rate our work?:
-          <input 
-          type="range"
-          class = "forms"
-          id = "range"
-          name = "RangeWork"
-          required
-          min = "0"
-          max = "10">
-        </label>
-
-      </fieldset>
+        </fieldset>
 
 
-      <fieldset class = "fieldsetGroup"> 
-        <legend>Additional info:</legend>
+        <fieldset class = "fieldsetGroup"> 
+          <legend>Additional info:</legend>
 
-        <label for="comments">
-          Commets:
-          <textarea 
-          name="Comment" 
-          id="comments" 
-          cols="20" 
-          rows="2" 
-          autocomplete="off"
-          class = "forms"
-        ></textarea>
-        </label>
+          <label for="comments">
+            Commets:
+            <textarea 
+            name="Comment" 
+            id="comments" 
+            cols="20" 
+            rows="2" 
+            autocomplete="off"
+            class = "forms">
+            </textarea>
+          </label>
 
-        <br>
+          <br>
 
-        <label for="rec">
-          Do you recomend us?:
-          <select 
-          name="Recommend?" 
-          id="rec"
-          class = "forms"
-        >
-        <option value="" selected>Yes</option>
-        <option value="" >No</option>
-        </select>
-        </label>
+          <label for="rec">
+            Do you recomend us?:
+            <select 
+            name="Recommend?" 
+            id="rec"
+            class = "forms">
+              <option selected>Yes</option>
+              <option>No</option>
+            </select>
+          </label>
 
-      </fieldset>
+        </fieldset>
 
 
         <button type="submit">Sumbit</button>
